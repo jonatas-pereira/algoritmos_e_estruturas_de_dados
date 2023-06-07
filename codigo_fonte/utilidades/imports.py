@@ -24,3 +24,12 @@ def executar(func):
     :param func: A função de teste/exemplo que será carregada e executada.
     """
     func()
+
+
+def executar_p(func, param):
+    """ Executa o teste/exemplo inserido na lista de parâmetros.
+
+    :param func: A função de teste/exemplo que será carregada e executada.
+    :param param: O parâmetro que será passado para a função.
+    """
+    func(param)
